@@ -1,0 +1,212 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
+h1, p, h2, h3, a, span{
+    font-family: 'Montserrat', sans-serif;}
+
+    p{
+        font-weight: 200;
+    }
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        background-color: #FFC107;
+    }
+    
+    header img{
+        align-self: center;
+        width: 324px;
+        height: 84px;
+    }
+    header .container{
+        background-color:  #FFA000; 
+    }
+
+   
+    main {
+        width: 50%;
+    }
+
+   .container nav{
+        display: flex;
+        justify-content: center;
+    }
+
+    .center-li{
+        margin: 0 58px 0 58px;}
+
+    .container nav li{
+        list-style: none;
+        margin: 12px 12px;
+    }
+    .container nav li {
+        text-decoration: none;
+        font-size: 1.1vw;
+        color: #FDFDFD;
+    }
+
+
+    main h1{
+        color: #FFA000;
+    }
+    main .container img{
+        display: flex;
+        width: 43vw;
+        margin-bottom: 4.8vh;
+    }
+
+    main aside{}
+    
+    main .container span{
+        
+        border: 1px #176902 solid;
+        padding: 10px;
+        border-radius: 47px;
+        color: #176902;
+        margin-right: 40px;
+    }
+    .ingredientes{
+        margin-top: 65px;
+        font-size: 95%;
+    }
+
+    .video{
+        width: 43vw;
+        height: 48vh;
+        margin-top: 80px ;
+        margin-bottom: 18%;
+    }
+ .risotodeabobora {
+    
+    font-family: Montserrat;
+font-size: 30px;
+font-weight: 400;
+line-height: 61px;
+letter-spacing: 0em;
+text-align: left;
+    
+    text-transform: lowercase;
+    
+    color: #FFA000;}
+    .imagemrisoto{
+background: #C4C4C4;
+margin: 10px;
+        }
+
+      
+        h1 {
+            color: #FFA000;
+            margin-bottom: 28px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 61px;
+        }
+        main span {color: #176902;
+            border: 1px solid;
+            padding: 7px 10px;
+            margin-right: 38px;
+            border-radius: 30px;
+            font-style: normal;
+            font-family: Montserrat;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 22px;
+            letter-spacing: 0em;
+            text-align: center;
+            }
+                
+            .ingredientes{
+                
+                
+                font-family: Montserrat;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: left;
+
+                font-family: Montserrat;
+                font-size: 20px;
+                font-weight: 300;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: left;
+
+                
+                color: #000000;}
+
+                .ingredientes ul { 
+                    list-style: none;
+                    margin-bottom: 25px }
+
+        
+.ModoPreparo{
+    
+    width: 45vw;
+    height: 90vh
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-self: center;
+    margin-top: 6vw;
+
+}
+
+aside h2{
+    color: #FFA000;
+    text-align: center;
+}
+
+.receitas {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    width: 23.5vw;
+    height: 22vh;
+    margin-bottom: 20%;
+    box-shadow: 0 100px 25% #000000;
+    
+}
+
+.receitas  {
+    text-decoration: none;
+    color: #000000;
+}
+
+.receitas p {
+    text-align: center;
+    margin-top: 9px;
+}
+
+.receitas img{
+    width: 100%;
+}
+
+aside .receitas span{
+    font-weight: 600;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    background-color: #FFC107;
+    color: white;
+    font-weight: 700;
+}
+
+
+footer img{
+    width: 20%;
+}
+
+footer span{
+    font-size: 80%;
+}
