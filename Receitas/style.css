@@ -1,27 +1,43 @@
 *{padding: 0;
-margin: 0;
-box-sizing: border-box;}
-h1, p, h2, h3, a, span{
-    font-family: 'Montserrat', sans-serif;}
+    margin: 0;
+    }
+    
+    h1, p, h2, h3, a, span{
+        font-family: 'Montserrat', sans-serif;}
+    
+        p{
+            font-weight: 200;
+        }
+        
+        header{
+            display: flex;
+            flex-direction: column;
+            background-color: #FFC107;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        }
+        
+        header img{
+            align-self: center;
+            width: 324px;
+            height: 84px;
+        }
+        header .container{
+            background-color:  #FFA000; 
+        }
+    
+        .menu{
+    background: #FFA000;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: lowercase;
+    color: #FDFDFD;
+    list-style: none;
+        }
 
-    p{
-        font-weight: 200;
-    }
-    
-    header{
-        display: flex;
-        flex-direction: column;
-        background-color: #FFC107;
-    }
-    
-    header img{
-        align-self: center;
-        width: 324px;
-        height: 84px;
-    }
-    header .container{
-        background-color:  #FFA000; 
-    }
+
     .container nav{
         display: flex;
         justify-content: center;
@@ -38,6 +54,7 @@ h1, p, h2, h3, a, span{
         text-decoration: none;
         font-size: 1.1vw;
         color: #FDFDFD;
+        list-style: none;
     }
   
 
@@ -111,46 +128,39 @@ color: #000000;
     
 }
 
-.botao{background-color: #4CAF50;
+button, input [type="submit"], input[type="reset"]{
+    width: 185px;
+    height: 48px;
+    left: 205px;
+    top: 1930px;
+    background: #176902;
     border: none;
     color: white;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    }
+    cursor: pointer;}
+
+    .botao {display: flex;
+         flex-direction: row;
+        justify-content: center;}
+   
 
 
-footer{
-    margin-top: 30px;
-    display: flex;
-    align-items: center;
-    background-color: #FFC107;
-    color: white;
-    font-weight: 250;
-}
-
-
-footer img{
-    width: 20%;
-}
-
-footer span{width: 464px;
-    height: 22px;
-    left: 368px;
-    top: 2157px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 250;
-    font-size: 30px;
-    line-height: 40px;
-    /* identical to box height */
-    
-    text-transform: lowercase;
-    
-}
+        footer{margin-top: 30px;
+            display: flex;
+            align-items: center;
+            background-color: #FFC107;
+            color: white;
+            font-weight: 700;
+        }
+        
+        
+        footer img{
+            width: 20%;
+        }
+        
+        footer span{
+            font-size: 80%;
+        }
    
